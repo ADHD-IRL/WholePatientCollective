@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Whole Patient Collective — Consumer-driven, AI-augmented, holistic care</title>
+<meta name="description" content="A community of caregivers, clinicians, and builders working toward consumer-driven, empowered, AI-augmented holistic healthcare — where someone finally sees the whole patient." />
+<meta property="og:title" content="Whole Patient Collective" />
+<meta property="og:description" content="No one owns the whole patient. Together, we can see it." />
+<meta property="og:image" content="./assets/hero.jpg" />
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://api.fontshare.com" />
+<link href="https://api.fontshare.com/v2/css?f[]=zodiak@400,500,700,401&f[]=switzer@400,500,600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="header" id="top">
+  <div class="wrap header__inner">
+    <a href="#top" class="brand" aria-label="Whole Patient Collective, home">
+      <svg class="brand__mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <path d="M20 4 A16 16 0 0 1 36 20" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+        <path d="M36 20 A16 16 0 0 1 20 36" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" opacity=".55"/>
+        <path d="M20 36 A16 16 0 0 1 4 20" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+        <path d="M4 20 A16 16 0 0 1 20 4" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" opacity=".55"/>
+        <circle cx="20" cy="20" r="4.6" fill="var(--color-accent)"/>
+      </svg>
+      <span class="brand__word">Whole Patient<span class="brand__sub">Collective</span></span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#problem">The gap</a>
+      <a href="#pillars">Principles</a>
+      <a href="#how">How it works</a>
+      <a href="#tool">First tool</a>
+      <a href="#roadmap">Roadmap</a>
+    </nav>
+    <div class="header__actions">
+      <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <a href="#join" class="btn btn--primary btn--sm">Join us</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <p class="eyebrow">A community for whole-person care</p>
+      <h1 class="hero__title">No one owns the whole patient. <em>Together, we can see it.</em></h1>
+      <p class="hero__lede">Every specialist sees a slice. The patient — or the person caring for them — ends up as the only place where it all comes together. We're building the tools, standards, and community that turn that burden into a strength.</p>
+      <div class="hero__ctas">
+        <a href="#join" class="btn btn--primary">Join the collective</a>
+        <a href="#how" class="btn btn--ghost">See how it works</a>
+      </div>
+    </div>
+    <figure class="hero__media">
+      <img src="./assets/hero.jpg" alt="A caregiver and her father sit at a sunlit kitchen table, arranging medical records and pill bottles from several different providers." width="1536" height="1024" fetchpriority="high" />
+    </figure>
+  </div>
+  <div class="wrap">
+    <ul class="hero__words" aria-label="What we stand for">
+      <li><span>01</span>Consumer-driven</li>
+      <li><span>02</span>Empowered</li>
+      <li><span>03</span>Augmented</li>
+      <li><span>04</span>Holistic</li>
+    </ul>
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section class="section" id="problem">
+  <div class="wrap split">
+    <div class="split__head">
+      <p class="eyebrow">The gap</p>
+      <h2 class="h2">Modern care is locally optimized and globally blind.</h2>
+      <p class="muted">A person with several conditions sees several providers, each working from a partial chart. Each decision can be sound on its own. The trouble lives in the seams — where no single clinician is looking.</p>
+    </div>
+    <ol class="failures">
+      <li class="failure reveal">
+        <span class="failure__num">1</span>
+        <div>
+          <h3>Diagnostic anchoring</h3>
+          <p>A second condition gets dismissed as a symptom of the first because nobody questions the original frame — fatigue blamed on depression when it's really an untreated thyroid or medication issue.</p>
+        </div>
+      </li>
+      <li class="failure reveal">
+        <span class="failure__num">2</span>
+        <div>
+          <h3>Medication interference</h3>
+          <p>Prescriptions add up across silos. Each one is safe alone; together they cause interactions, duplication, or a "prescribing cascade" where one drug treats another's side effect.</p>
+        </div>
+      </li>
+      <li class="failure reveal">
+        <span class="failure__num">3</span>
+        <div>
+          <h3>Treatment conflict</h3>
+          <p>Goals collide. A medicine that helps one condition can worsen another, and nobody weighs the trade-off for the whole person.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+  <div class="wrap">
+    <blockquote class="pullquote reveal">
+      <p>"This is a reasoning-under-fragmentation problem, not only a data problem. The data often exists — nobody synthesizes it."</p>
+    </blockquote>
+  </div>
+</section>
+
+<!-- PILLARS -->
+<section class="section section--tint" id="pillars">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow">What we believe</p>
+      <h2 class="h2">Four principles for care that sees the whole person.</h2>
+    </div>
+    <div class="pillars">
+      <article class="pillar reveal">
+        <svg class="pillar__icon" viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="1.2" opacity=".25"/><path d="M20 4 A12 12 0 0 1 28 16" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="16" cy="16" r="3.5" fill="currentColor"/></svg>
+        <h3>Consumer-driven</h3>
+        <p>You have a legal right to your records, and providers now have to hand them over through patient-facing APIs. The person at the center decides where data goes and what gets looked at.</p>
+      </article>
+      <article class="pillar reveal">
+        <svg class="pillar__icon" viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="1.2" opacity=".25"/><path d="M28 16 A12 12 0 0 1 16 28" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="16" cy="16" r="3.5" fill="currentColor"/></svg>
+        <h3>Empowered</h3>
+        <p>Walking into an appointment with good questions changes the conversation. Our tools help you bring those questions — not diagnoses, not instructions — to the clinicians who can act on them.</p>
+      </article>
+      <article class="pillar reveal">
+        <svg class="pillar__icon" viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="1.2" opacity=".25"/><path d="M16 28 A12 12 0 0 1 4 16" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="16" cy="16" r="3.5" fill="currentColor"/></svg>
+        <h3>Augmented</h3>
+        <p>AI reads the whole picture at once and argues with itself about what doesn't add up. People stay in charge: the system flags and explains its reasoning, and a licensed clinician makes the call.</p>
+      </article>
+      <article class="pillar reveal">
+        <svg class="pillar__icon" viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="1.2" opacity=".25"/><path d="M4 16 A12 12 0 0 1 16 4" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="16" cy="16" r="3.5" fill="currentColor"/></svg>
+        <h3>Holistic</h3>
+        <p>One person, not a list of organ systems. Medications, diagnoses, labs, and the everyday context only a family member knows, all brought together so trade-offs get weighed for the whole person.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section" id="how">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow">How it works</p>
+      <h2 class="h2">Get the experts who never meet into one room, and let them argue.</h2>
+      <p class="muted narrow">Today's care is a panel of specialists who never talk to each other. We bring that panel together as AI agents, each one playing a specialty with its usual blind spots, plus a skeptic whose job is to ask what else could explain the findings. The places where they can't agree are where buried problems tend to be.</p>
+    </div>
+
+    <div class="flow reveal" role="list" aria-label="The shared workflow">
+      <div class="flow__node" role="listitem">
+        <span class="flow__tag">Front door</span>
+        <h3>Caregiver &amp; patient</h3>
+        <p>Brings reach, consent, and lived context no record holds.</p>
+      </div>
+      <div class="flow__arrow" aria-hidden="true"><span></span></div>
+      <div class="flow__node flow__node--engine" role="listitem">
+        <span class="flow__tag">The engine</span>
+        <h3>Unified model + debate</h3>
+        <p>Normalizes records from ≥ 2 providers, runs deterministic checks, then adversarial reasoning.</p>
+      </div>
+      <div class="flow__arrow" aria-hidden="true"><span></span></div>
+      <div class="flow__node" role="listitem">
+        <span class="flow__tag">Back door</span>
+        <h3>Clinician</h3>
+        <p>Brings judgment and the authority to act. Always decides.</p>
+      </div>
+    </div>
+    <p class="flow__note">New information re-runs the debate. The contested-findings list is where the two humans meet.</p>
+
+    <div class="steps">
+      <div class="step reveal">
+        <span class="step__k">Ingest</span>
+        <p>Records pulled from wherever they live, through TEFCA's Individual Access Services or direct SMART on FHIR endpoints, after IAL2 identity proofing.</p>
+      </div>
+      <div class="step reveal">
+        <span class="step__k">Normalize</span>
+        <p>Everything mapped to shared vocabularies (RxNorm, SNOMED CT, ICD-10-CM, LOINC), with a provenance trail on every fact.</p>
+      </div>
+      <div class="step reveal">
+        <span class="step__k">Check</span>
+        <p>Deterministic checks catch the known problems cheaply: interactions, duplicate prescriptions, contraindications.</p>
+      </div>
+      <div class="step reveal">
+        <span class="step__k">Debate</span>
+        <p>Specialty agents and a skeptic argue over what's left. The output is a ranked list of contested findings, each with its reasoning trace. It is never a diagnosis.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINDING CARD -->
+<section class="section section--ink" id="finding">
+  <div class="wrap split split--card">
+    <div class="split__head">
+      <p class="eyebrow eyebrow--light">One finding, two renderings</p>
+      <h2 class="h2">Same reasoning. Different language for each person.</h2>
+      <p>Both views come from the same structured finding. The caregiver sees a pattern and one question to ask. The clinician sees the suspected mechanism with every fact's source and date, including the one thing neither doctor could have known: they had no shared record.</p>
+      <div class="tabs" role="tablist" aria-label="Finding view">
+        <button role="tab" aria-selected="true" aria-controls="card-caregiver" id="tab-caregiver" class="tab is-active">Caregiver view</button>
+        <button role="tab" aria-selected="false" aria-controls="card-clinician" id="tab-clinician" class="tab">Clinician view</button>
+      </div>
+      <p class="fineprint">Illustrative example only.</p>
+    </div>
+
+    <div class="cardstage">
+      <article class="fcard" id="card-caregiver" role="tabpanel" aria-labelledby="tab-caregiver">
+        <header class="fcard__head">
+          <span class="chip chip--warm">Worth asking about</span>
+          <span class="fcard__meta">Medicines · 2 providers</span>
+        </header>
+        <h3 class="fcard__title">A new medicine may be treating a side effect of another one</h3>
+        <p>About three weeks after a blood pressure medicine was started, a different doctor prescribed a water pill for ankle swelling. Ankle swelling is a known side effect of some blood pressure medicines.</p>
+        <div class="fcard__q">
+          <span>Question to bring</span>
+          <p>"Could the ankle swelling be related to the blood pressure medicine, and should both of my doctors know about each other's prescriptions?"</p>
+        </div>
+        <footer class="fcard__foot">This is a question to discuss, not a conclusion. Don't start, stop, or change any medicine without your clinician.</footer>
+      </article>
+
+      <article class="fcard fcard--clin" id="card-clinician" role="tabpanel" aria-labelledby="tab-clinician" hidden>
+        <header class="fcard__head">
+          <span class="chip chip--alert">Suspected prescribing cascade</span>
+          <span class="fcard__meta">Severity: moderate · Confidence: 0.72</span>
+        </header>
+        <h3 class="fcard__title">Loop diuretic likely initiated for CCB-induced peripheral edema</h3>
+        <dl class="facts">
+          <div><dt>Amlodipine 10 mg daily</dt><dd>Cardiology · started Mar 04</dd></div>
+          <div><dt>Bilateral ankle edema noted</dt><dd>Primary care · Mar 26</dd></div>
+          <div><dt>Furosemide 20 mg daily</dt><dd>Primary care · Mar 26</dd></div>
+          <div><dt>Shared record between prescribers</dt><dd class="bad">None found</dd></div>
+        </dl>
+        <div class="fcard__q fcard__q--clin">
+          <span>Consideration</span>
+          <p>Dihydropyridine CCB edema is typically poorly responsive to diuretics. Evaluate dose relationship and alternatives; reconcile with cardiology.</p>
+        </div>
+        <footer class="fcard__foot">Reasoning trace and provenance attached · Decision support only</footer>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- TOOL -->
+<section class="section" id="tool">
+  <div class="wrap tool">
+    <figure class="tool__media reveal">
+      <img src="./assets/clinician.jpg" alt="A physician leans in to review a printed list of questions with an older patient and his adult son." width="1536" height="1024" />
+    </figure>
+    <div class="tool__copy">
+      <p class="eyebrow">Our first tool</p>
+      <h2 class="h2">Bring Better Questions</h2>
+      <p>The first product we can ship is the caregiver side, simplified. You enter your own information by typing it or pasting from a patient portal or after-visit summary. The AI reads it all together and gives you informed questions to take to your clinician.</p>
+      <ol class="mini">
+        <li><strong>Load what you have.</strong> Medicines, diagnoses, procedures, notes, from every provider.</li>
+        <li><strong>One read of the whole picture.</strong> Guardrails keep the output to questions, never conclusions.</li>
+        <li><strong>Walk in prepared.</strong> A question list you can copy, the findings behind it sorted by priority, and suggestions for what to add for a fuller read.</li>
+      </ol>
+      <ul class="guard">
+        <li>No health information is stored. Your request goes in, questions come out, and nothing is kept.</li>
+        <li>API keys live only on the server and never reach your browser.</li>
+        <li>Medication flags will be checked against a drug-interaction database.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- STANDARDS BAND -->
+<section class="band" aria-label="Built on open standards">
+  <div class="wrap band__inner">
+    <p class="band__label">Built on open standards</p>
+    <ul class="band__list">
+      <li>SMART on FHIR R4</li><li>TEFCA · IAS</li><li>US Core</li><li>USCDI v4</li><li>C-CDA</li><li>NIST 800-63 IAL2</li><li>RxNorm</li><li>SNOMED CT</li><li>LOINC</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section class="section" id="roadmap">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow">Roadmap</p>
+      <h2 class="h2">Start small and useful, then build toward the full system.</h2>
+      <p class="muted narrow">The data plumbing is bought, not built, because the value is in the reasoning. The question the whole plan has to answer: does adversarial debate over an aggregated record catch issues that siloed care missed, with few enough false alarms that clinicians find it worth reading?</p>
+    </div>
+    <ol class="timeline">
+      <li class="reveal"><span class="timeline__p">Phase 0</span><h3>Foundations &amp; guardrails</h3><p>Legal basis, clinical advisor, and a written success metric.</p></li>
+      <li class="reveal"><span class="timeline__p">Phase 1</span><h3>Unified patient model</h3><p>Aggregator API with IAL2, five resource types from at least two sources, provenance on every fact.</p></li>
+      <li class="reveal"><span class="timeline__p">Phase 2</span><h3>Deterministic checks</h3><p>Interaction, duplication, and contraindication checks, which also serve as ground truth.</p></li>
+      <li class="reveal is-key"><span class="timeline__p">Phase 3</span><h3>The debate layer</h3><p>Specialty agents plus a skeptic, disagreement scoring, and hard safety rails. This is what sets us apart.</p></li>
+      <li class="reveal"><span class="timeline__p">Phase 4</span><h3>Two surfaces &amp; pilot</h3><p>Caregiver and clinician front ends, scored on consented retrospective records.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- COMMUNITY -->
+<section class="section section--tint" id="community">
+  <div class="wrap community">
+    <div class="community__copy">
+      <p class="eyebrow">The collective</p>
+      <h2 class="h2">This only works if all of us are in the room.</h2>
+      <p class="muted">Closing the gaps between providers takes the people who live with them every day. Find where you fit.</p>
+      <div class="roles">
+        <div class="role"><h3>Caregivers &amp; patients</h3><p>Tell us where things slipped through. Test early tools. Help decide what "helpful, not alarming" sounds like.</p></div>
+        <div class="role"><h3>Clinicians &amp; pharmacists</h3><p>Help judge findings, tune the false-alarm rate, and make the clinician view worth your time.</p></div>
+        <div class="role"><h3>Builders &amp; data people</h3><p>FHIR, terminology, evaluation, red-teaming, and accessibility work.</p></div>
+        <div class="role"><h3>Advocates &amp; policy</h3><p>Access rights, consent, payers, and veteran and public-sector channels.</p></div>
+      </div>
+    </div>
+    <figure class="community__media reveal">
+      <img src="./assets/community.jpg" alt="A nurse, a developer, a pharmacist, and an older caregiver talk in a circle of chairs in a bright community room." width="1536" height="1024" />
+    </figure>
+  </div>
+</section>
+
+<!-- JOIN -->
+<section class="section join" id="join">
+  <div class="wrap join__inner">
+    <div>
+      <p class="eyebrow">Join us</p>
+      <h2 class="h2">Help make whole-person care the default.</h2>
+      <p class="muted">Get early access to Bring Better Questions, invitations to community sessions, and a say in what we build next.</p>
+    </div>
+    <form class="form" id="join-form" novalidate>
+      <div class="field">
+        <label for="f-name">Name</label>
+        <input id="f-name" name="name" type="text" autocomplete="name" required />
+      </div>
+      <div class="field">
+        <label for="f-email">Email</label>
+        <input id="f-email" name="email" type="email" autocomplete="email" required />
+      </div>
+      <fieldset class="field">
+        <legend>I'm joining as a…</legend>
+        <div class="pills">
+          <label><input type="radio" name="role" value="caregiver" checked /><span>Caregiver / patient</span></label>
+          <label><input type="radio" name="role" value="clinician" /><span>Clinician</span></label>
+          <label><input type="radio" name="role" value="builder" /><span>Builder</span></label>
+          <label><input type="radio" name="role" value="advocate" /><span>Advocate</span></label>
+        </div>
+      </fieldset>
+      <p class="form__hint">Please don't include health details. We only need a way to reach you.</p>
+      <button type="submit" class="btn btn--primary btn--block">Count me in</button>
+      <p class="form__status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="footer__brand">
+      <svg class="brand__mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <path d="M20 4 A16 16 0 0 1 36 20" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+        <path d="M36 20 A16 16 0 0 1 20 36" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" opacity=".55"/>
+        <path d="M20 36 A16 16 0 0 1 4 20" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+        <path d="M4 20 A16 16 0 0 1 20 4" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" opacity=".55"/>
+        <circle cx="20" cy="20" r="4.6" fill="var(--color-accent)"/>
+      </svg>
+      <span>Whole Patient Collective</span>
+    </div>
+    <p class="footer__disc">Decision support concept. Not a medical device and not a substitute for licensed clinical judgment. Nothing here is medical advice.</p>
+    <p class="footer__small">Concept developed by Obsidian Knight Consulting · Working draft, 2026</p>
+  </div>
+</footer>
+
+<script src="./app.js"></script>
+<script data-pplx-inline-edit>
+(function () {
+  if (window === window.top) return;
+
+  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://perplexity.localhost","http://localhost:1420","http://127.0.0.1:1420","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
+  const MAX_FONT_BYTES = 500 * 1024;
+  const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
+  let scrollForwarding = false;
+  let scrollRaf = 0;
+  let trustedTopOrigin = null;
+
+  // Allow entries like "https://*.preview.i.perplexity.ai" — the wildcard
+  // matches a single DNS label (no dots), so "https://*.foo" cannot stretch
+  // across multiple labels.
+  function matchesAllowedOrigin(origin) {
+    if (!origin) return false;
+    for (const entry of allowedParentOrigins) {
+      if (!entry.includes("*")) {
+        if (entry === origin) return true;
+        continue;
+      }
+      const pattern = new RegExp(
+        "^" +
+          entry.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, "[^.]+") +
+          "$",
+      );
+      if (pattern.test(origin)) return true;
+    }
+    return false;
+  }
+
+  // Trust decision: when the sender is same-origin-visible (event.origin is a
+  // real origin like https://www.perplexity.ai) we trust event.origin directly.
+  // When event.origin is "null" (opaque broker srcdoc), we fall back to the
+  // broker's stamped `parentOrigin` to identify the top window. The fallback
+  // is claim-only — we rely on the browser's native `targetOrigin` enforcement
+  // on the response path (see postToTrustedTop) to ensure replies can't be
+  // delivered to anyone but the actual top window of that claimed origin.
+  function getTrustedParentOrigin(event) {
+    const forwardedParentOrigin =
+      typeof event.data.parentOrigin === "string" ? event.data.parentOrigin : null;
+    const parentOrigin = event.origin === "null" ? forwardedParentOrigin : event.origin;
+    return matchesAllowedOrigin(parentOrigin) ? parentOrigin : null;
+  }
+
+  // All responses go to window.top with targetOrigin = the allowlisted origin.
+  // An attacker that iframes us inside their own null-origin broker can claim
+  // any parentOrigin they like, but the browser will drop the reply whenever
+  // the real top's origin doesn't match — so the screenshot never leaves.
+  function postToTrustedTop(message) {
+    if (!trustedTopOrigin) return;
+    try {
+      window.top.postMessage(message, trustedTopOrigin);
+    } catch (_error) {}
+  }
+
+  function inlineAll(original, clone) {
+    if (original.nodeType !== 1 || clone.nodeType !== 1) return;
+
+    try {
+      const computedStyle = getComputedStyle(original);
+      // cssText on a computed style is the serialized declaration in modern
+      // Chromium/Safari — a single read beats enumerating ~400 longhand
+      // properties. Firefox returns "" here, so we fall back on empty.
+      const serialized = computedStyle.cssText;
+      if (serialized) {
+        clone.style.cssText = serialized;
+      } else {
+        const parts = new Array(computedStyle.length);
+        for (let index = 0; index < computedStyle.length; index += 1) {
+          const property = computedStyle[index];
+          parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
+        }
+        clone.style.cssText = parts.join("");
+      }
+    } catch (_error) {}
+
+    const originalChildren = original.children;
+    const clonedChildren = clone.children;
+    for (
+      let index = 0;
+      index < originalChildren.length && index < clonedChildren.length;
+      index += 1
+    ) {
+      inlineAll(originalChildren[index], clonedChildren[index]);
+    }
+  }
+
+  function extractFontUrl(srcValue) {
+    const matches = [
+      ...srcValue.matchAll(
+        /url\(["']?([^"')]+)["']?\)(?:\s*format\(["']?([^"')]+)["']?\))?/gi,
+      ),
+    ];
+    if (matches.length === 0) return null;
+    const woff2 = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff2"));
+    if (woff2) return woff2[1];
+    const woff = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff"));
+    if (woff) return woff[1];
+    return matches[0][1];
+  }
+
+  // Cache resolved font URL -> data URI across captures. Fonts on a page
+  // essentially never change, and a batch run emits multiple captures back to
+  // back — without this we'd refetch + re-base64 every time.
+  const fontDataUriCache = new Map();
+  const SRC_DECLARATION_RE = /src\s*:\s*[^;}]+/i;
+
+  async function fetchAsDataUri(url) {
+    if (fontDataUriCache.has(url)) return fontDataUriCache.get(url);
+    let dataUri = null;
+    try {
+      const response = await fetch(url, { mode: "cors", credentials: "omit" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.size <= MAX_FONT_BYTES) {
+          dataUri = await new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onloadend = () =>
+              resolve(typeof reader.result === "string" ? reader.result : null);
+            reader.onerror = () => resolve(null);
+            reader.readAsDataURL(blob);
+          });
+        }
+      }
+    } catch (_error) {
+      dataUri = null;
+    }
+    fontDataUriCache.set(url, dataUri);
+    return dataUri;
+  }
+
+  function collectFontFaceRuleTexts() {
+    const rules = [];
+    for (const sheet of document.styleSheets) {
+      let cssRules;
+      try {
+        cssRules = sheet.cssRules;
+      } catch (_error) {
+        continue;
+      }
+      if (!cssRules) continue;
+      for (const rule of cssRules) {
+        const cssText = rule.cssText || "";
+        if (cssText.startsWith("@font-face")) rules.push(cssText);
+      }
+    }
+    return rules;
+  }
+
+  async function buildInlinedFontCss() {
+    const ruleTexts = collectFontFaceRuleTexts();
+    if (ruleTexts.length === 0) return null;
+
+    const resolved = ruleTexts.map((cssText) => {
+      if (!SRC_DECLARATION_RE.test(cssText)) return null;
+      const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
+      if (!srcMatch) return null;
+      const url = extractFontUrl(srcMatch[1]);
+      if (!url) return null;
+      try {
+        return { cssText, url: new URL(url, document.baseURI).href };
+      } catch (_error) {
+        return null;
+      }
+    });
+
+    const dataUris = await Promise.all(
+      resolved.map((entry) => (entry ? fetchAsDataUri(entry.url) : Promise.resolve(null))),
+    );
+
+    const inlined = [];
+    let totalBytes = 0;
+    for (let index = 0; index < resolved.length; index += 1) {
+      const entry = resolved[index];
+      const dataUri = dataUris[index];
+      if (!entry || !dataUri) continue;
+      const approxBytes = dataUri.length * 0.75;
+      if (totalBytes + approxBytes > MAX_TOTAL_FONT_BYTES) break;
+      totalBytes += approxBytes;
+      inlined.push(entry.cssText.replace(SRC_DECLARATION_RE, `src: url("${dataUri}")`));
+    }
+    return inlined.length > 0 ? inlined.join("\n") : null;
+  }
+
+  function stripExternal(clone) {
+    const images = clone.querySelectorAll("img");
+    for (let index = 0; index < images.length; index += 1) {
+      const src = images[index].getAttribute("src");
+      if (src && !src.startsWith("data:")) images[index].removeAttribute("src");
+    }
+
+    const elements = clone.querySelectorAll("*");
+    for (let index = 0; index < elements.length; index += 1) {
+      const style = elements[index].style.cssText;
+      if (style && style.includes("url(")) {
+        elements[index].style.cssText = style.replace(
+          /url\(["']?(?!data:)[^)"']*["']?\)/gi,
+          "none",
+        );
+      }
+    }
+  }
+
+  function emitScroll() {
+    scrollRaf = 0;
+    if (!scrollForwarding) return;
+    postToTrustedTop({
+      type: "INLINE_EDIT_SCROLL",
+      scrollX: window.scrollX,
+      scrollY: window.scrollY,
+    });
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (!scrollForwarding || scrollRaf) return;
+      scrollRaf = requestAnimationFrame(emitScroll);
+    },
+    { passive: true, capture: true },
+  );
+
+  async function handleCaptureRequest(event) {
+    const requestId = event.data.requestId;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    function postResult(dataUrl) {
+      postToTrustedTop({
+        type: "INLINE_EDIT_SCREENSHOT_RESULT",
+        requestId,
+        dataUrl,
+        scrollX,
+        scrollY,
+      });
+    }
+
+    try {
+      // Wait for any pending web fonts to resolve so both inline metrics and
+      // the @font-face inlining below see the same loaded faces.
+      if (document.fonts && document.fonts.ready) {
+        try {
+          await document.fonts.ready;
+        } catch (_error) {}
+      }
+
+      const clone = document.documentElement.cloneNode(true);
+      inlineAll(document.documentElement, clone);
+
+      const removedNodes = clone.querySelectorAll("script,link[rel=\"stylesheet\"],style");
+      for (let index = 0; index < removedNodes.length; index += 1) {
+        removedNodes[index].remove();
+      }
+
+      stripExternal(clone);
+
+      // Re-embed web fonts as data-URI @font-face rules so the SVG rasterizer
+      // can resolve them — external font URLs aren't fetched during
+      // foreignObject rendering, which would otherwise force a fallback face
+      // and change text metrics.
+      const inlinedFontCss = await buildInlinedFontCss();
+      if (inlinedFontCss) {
+        const styleEl = document.createElement("style");
+        styleEl.textContent = inlinedFontCss;
+        const head = clone.querySelector("head");
+        if (head) head.appendChild(styleEl);
+        else clone.insertBefore(styleEl, clone.firstChild);
+      }
+
+      const html = new XMLSerializer().serializeToString(clone);
+      const svg =
+        `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
+        '<foreignObject width="100%" height="100%">' +
+        `<div xmlns="http://www.w3.org/1999/xhtml" style="width:${width}px;height:${height}px;overflow:hidden">` +
+        `<div style="position:relative;left:-${scrollX}px;top:-${scrollY}px">` +
+        html +
+        "</div></div></foreignObject></svg>";
+      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+      const image = new Image();
+      image.onload = function () {
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(image, 0, 0);
+        postResult(canvas.toDataURL("image/png"));
+      };
+      image.onerror = function () {
+        postResult(null);
+      };
+      image.src = svgUrl;
+    } catch (_error) {
+      postResult(null);
+    }
+  }
+
+  window.addEventListener("message", function (event) {
+    if (!event.data) return;
+    // Only accept messages from the direct parent frame. Blocks sibling /
+    // unrelated-window postMessage senders that could otherwise reach us.
+    if (event.source !== window.parent) return;
+
+    const trustedParentOrigin = getTrustedParentOrigin(event);
+    if (!trustedParentOrigin) return;
+    trustedTopOrigin = trustedParentOrigin;
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_START") {
+      scrollForwarding = true;
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_STOP") {
+      scrollForwarding = false;
+      if (scrollRaf) cancelAnimationFrame(scrollRaf);
+      scrollRaf = 0;
+      return;
+    }
+
+    if (event.data.type !== "INLINE_EDIT_CAPTURE_REQUEST") return;
+
+    handleCaptureRequest(event);
+  });
+})();
+
+
+</script></body>
+</html>
